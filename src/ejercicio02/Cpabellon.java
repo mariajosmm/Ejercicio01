@@ -9,7 +9,7 @@ package ejercicio02;
  *
  * @author sena
  */
-public class Cpabellon {
+public class Cpabellon extends Sanciones {
     
  
 }

@@ -10,14 +10,14 @@ package ejercicio02;
  * @author sena
  */
 public class Pabellon {
-    private Cpabellon Cpabellon1=new Cpabellon();
+    private Cpabellon cpabellon1;
     
     
-    public void setCpabellon1(Cpabellon Cpabellon1P){
-        this.Cpabellon1=Cpabellon1P;
+    public void setCpabellon1(Cpabellon cpabellon1P){
+        this.cpabellon1=cpabellon1P;
     }
     public Cpabellon getCpabellon1(){
-        return Cpabellon1;
+        return cpabellon1;
     }
     
 }

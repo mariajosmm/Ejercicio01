@@ -12,7 +12,17 @@ package ejercicio02;
 public class Incidencias {
     
     private  String Descripcion;
-    public void setNombre(String DescripcionP){
+    private Sanciones sanciones1;
+    
+    
+    public void setSanciones1(Sanciones sanciones1P){
+        this.sanciones1=sanciones1P;
+    }
+    public Sanciones getSanciones1(){
+        return sanciones1;   }
+    
+    
+    public void setDescripcion(String DescripcionP){
         this.Descripcion=DescripcionP;
     }
     public String getDescripcion(){

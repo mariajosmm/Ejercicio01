@@ -14,7 +14,16 @@ public class Equipo {
     private String ciudad;
     private Incidencias incidencias1;
     private Pabellon pabellon1;
+    private Partido partido1;
     private Jugador jugador1=new Jugador();
+    
+    
+    public void setPartido1(Partido partido1P){
+        this.partido1=partido1P;
+    }
+    public Partido getPartido1(){
+        return partido1;
+    }
     
     
     public void setJugador1(Jugador jugador1P){

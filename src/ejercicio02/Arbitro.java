@@ -10,30 +10,24 @@ package ejercicio02;
  * @author sena
  */
 public class Arbitro {
-    private String Nombre;
-    private String Colegio;
-    private Partido Partido1=new Partido();
+    private String nombre;
+    private String colegio;
     
+   
     
-    public void setPartido1(Partido Partido1P){
-        this.Partido1=Partido1P;
-    }
-    public Partido getPartido1(){
-        return Partido1;
-    }
-    
-    
+   
      public void setNombre(String nombreP){
-        this.Nombre=nombreP;
+        this.nombre=nombreP;
     }
     public String getNombre(){
-        return Nombre;
+        return nombre;
     }
+    
    public void setColegio(String colegioP){
-        this.Colegio=colegioP;
+        this.colegio=colegioP;
     }
     public String getColegio(){
-        return Colegio;
+        return colegio;
     }
        
 }

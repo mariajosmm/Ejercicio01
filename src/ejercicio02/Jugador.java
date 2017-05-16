@@ -10,21 +10,30 @@ package ejercicio02;
  * @author sena
  */
 public class Jugador {
+    private String DNI;
     private String Nombre;
     private String Contrato;
-    private Ejugador ejugador1=new Ejugador();
-    private Incidencias Incidencias1=new Incidencias();
+    private Ejugador ejugador1;
+    private Incidencias incidencias1;
     
     
-    public void setIncidencias1(Incidencias Incidencias1P){
-        this.Incidencias1=Incidencias1P;
+    public void setDNI(String DNIP){
+        this.DNI=DNIP;
+    }
+    public String getDNI(){
+        return DNI;
+    }
+    
+    
+    public void setIncidencias1(Incidencias incidencias1P){
+        this.incidencias1=incidencias1P;
     }
     public Incidencias getIncidencias1(){
-        return Incidencias1;
+        return incidencias1;
     }
     
-    public void setEjugador1(Ejugador Ejugador1P){
-        this.ejugador1=Ejugador1P;
+    public void setEjugador1(Ejugador ejugador1P){
+        this.ejugador1=ejugador1P;
     }
     public Ejugador getEjugador1(){
         return ejugador1;

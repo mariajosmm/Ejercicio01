@@ -9,15 +9,26 @@ package ejercicio02;
  *
  * @author sena
  */
-public class Sanciones extends Incidencias{
-      private Sanciones Sanciones1=new Sanciones();
+public class Sanciones{
+    private String descripcionS;
+    private int numPar;
+   
+    
+    public void setDescripcionS(String descripcionSP){
+        this.descripcionS=descripcionSP;
+    }
+    public String getDescripcionS(){
+        return descripcionS;
+    }
     
     
-    public void setSanciones1(Sanciones Sanciones1P){
-        this.Sanciones1=Sanciones1P;
+    public void setNumPar(int numParP){
+        this.numPar=numParP;
     }
-    public Sanciones getSanciones1(){
-        return Sanciones1;
+    public int getNumPar(){
+        return numPar;
     }
+    
+    
     
 }
